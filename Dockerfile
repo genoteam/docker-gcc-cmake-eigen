@@ -8,4 +8,4 @@ run \
   cmake --build . && \
   cmake --build . --target install
 workdir /
-run rm -rf /tmp/cmake
+run rm -rf /tmp/eigen
